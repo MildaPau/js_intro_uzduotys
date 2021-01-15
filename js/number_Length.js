@@ -1,11 +1,11 @@
   
 function numberLength(number) {
     if (typeof number !== 'number') {
-        return 'ERROR: reikia skaiciaus tipo reiksmes';
+        return 'ERROR: Pateikta netinkamo tipo reikšmė.';
     }
     if (isNaN(number) ||
         !isFinite(number)) {
-        return 'ERROR: reikai normalaus/tikro skaicias';
+        return 'ERROR: Pateikta netinkamo tipo reikšmė.';
     }
 
     const numberAsString = '' + number;
