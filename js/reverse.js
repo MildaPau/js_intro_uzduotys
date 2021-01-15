@@ -12,3 +12,20 @@ for (let i = 0; i < tekstoIlgis; i++) {
 
 console.log(pradinisTekstas, '-->', atbulasTekstas);
 
+console.log('-----------------');
+
+function zodis(x) {
+        const xIlgis = x.length;
+        let xAtbulai = ''; 
+    for (let i = 0; i < xIlgis; i++) {
+        const raide = zodis[i];
+        console.log(zodis[i]);
+        xAtbulai = raide + xAtbulai;
+    }
+    
+   return x, '-->', xAtbulai;
+    
+}
+
+const atbulai = zodis(labas);
+console.log(atbulai);

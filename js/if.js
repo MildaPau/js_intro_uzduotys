@@ -59,5 +59,5 @@ if (b <= a) { // 3 <= 7
     console.log('Bandyti dar karta'); // netenkina salygos
 }
 
-console.log('2. Išvesti teksto tipo kintamųjų ilgius'); 
+ 
 
