@@ -1,6 +1,6 @@
 function daugyba(pirmasSkaicius, antrasSkaicius){
     // validation
-    // ar "a" nera skaicius
+    // ar "pirmasSkaicius" nera skaicius
     if (typeof pirmasSkaicius !== 'number') {
         return 'ERROR: pirmas parametras turi buti skaicius';
     }
@@ -11,7 +11,7 @@ function daugyba(pirmasSkaicius, antrasSkaicius){
         return 'ERROR: pirmas parametras negali buti NaN';
     }
 
-    // ar "b" nera skaicius
+    // ar "antrasSkaicius" nera skaicius
     if (typeof antrasSkaicius !== 'number') {
         return 'ERROR: antras parametras turi buti skaicius';
     }
